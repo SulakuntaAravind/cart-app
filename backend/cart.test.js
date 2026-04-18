@@ -1,6 +1,5 @@
 const request = require('supertest');
-const app = require('../server');
-
+const app = require('./server');
 describe('🛍️ Add to Cart - API Tests', () => {
 
   // Reset cart before each test
